@@ -1,0 +1,57 @@
+.side{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 100px;
+    width: 12vw;
+    height: 100vh;
+    overflow: hidden;
+   
+    }
+
+.side p{
+    margin-left: 15px;
+    color: white;
+    text-shadow: 3px 3px 15px black;
+}
+.side div{
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 0.8s;
+    
+}
+
+.side div:hover{
+    transform: translateX(25px);
+    
+}
+
+.side div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px black;
+}
+
+.rect{
+    height: 30px;
+    width: 30px;
+    background-color: #2b383d;
+}
+
+.side button{
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    border: none;
+    background-color: #55666c;
+    color: white;
+    padding: 10px 40px;
+    font-size: 12px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.navlink{
+    text-decoration: none;
+}

@@ -1,0 +1,70 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -100px;
+    transform-origin: center;
+    
+    
+}
+
+.main .headertab{
+    display: flex;
+    justify-content: space-between;
+  background-color: #444D50;
+  width: 55vw;
+  height: 3vh;
+ 
+}
+
+.main .headertab p{
+    margin-top: 2px;
+    color: white;
+    margin-left: 20px;
+  }
+
+.main .bodytab{
+    background-color: rgba(25, 40, 45, 0.4);
+    width: 55vw;
+    height: 55vh;
+    
+    
+  }
+
+  table{
+    color: white;
+    width: 100%;
+  }
+
+  tr{
+    height: 30px;
+    
+  }
+
+  td p{
+    width:fit-content;
+    margin-inline: auto;
+  }
+
+  th{
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+  }
+
+  .tabhr div{
+  margin-inline: 10px;
+  }
+
+  .tabhr{
+    display: flex;
+  }
+
+  .south{
+    margin-top: 3px;
+  }
+
+  .north{
+    margin-top: 2px;
+  }
