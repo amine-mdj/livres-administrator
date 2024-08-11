@@ -1,14 +1,18 @@
-.main{
+.main2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: -100px;
+    
     
 }
 
-.main .headertab{
+.margin-main2{
+  margin-top: -50px;
+}
+
+.main2 .headertab{
     display: flex;
     justify-content: space-between;
   background-color: #444D50;
@@ -16,13 +20,13 @@
   height: 3vh;
 }
 
-.main .headertab p{
+.main2 .headertab p{
     margin-top: 2px;
     color: white;
     margin-left: 20px;
   }
 
-.main .bodytab{
+.main2 .bodytab{
     background-color: rgba(25, 40, 45, 0.4);
     width: 55vw;
     height: 55vh;
@@ -42,6 +46,10 @@
   td p{
     width:fit-content;
     margin-inline: auto;
+  }
+  td button{
+   padding: 5px 10px;
+   border-radius: 10px;
   }
 
   th{
@@ -64,3 +72,85 @@
   .north{
     margin-top: 2px;
   }
+
+  .center{
+    display: flex;
+    justify-content: center;
+  }
+
+  .sold{
+    background-color: #E6FBFB;
+    color: #008D8D;
+    border: 1px solid #008D8D;
+  }
+
+  .pending{
+    background-color: #FFF6E4;
+    color: #7D6211;
+    border: 1px solid #7D6211;
+  }
+  
+ .canceled{
+background-color: #F8E8F2;
+color: #911463;
+    border: 1px solid #911463;
+  }
+
+  .thead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .pagin{
+    border: 2px solid #7D6211;
+    background-color: #FFF6E4;
+    height: 30px;
+    width: 30px;
+    border-radius: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px black;
+    
+  }
+
+  .pagincont{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 900px;
+    
+    
+  }
+
+  .pagincont p{
+    margin-inline: 10px;
+    color: #FFF6E4;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  .bluebook{
+    color: #54b4fd;
+  }
+
+  .filter{
+   margin-right: 920px;
+   padding: 5px 20px;
+   margin-bottom: 15px;
+   background-color: #FFF6E4;
+   box-shadow: 2px 2px 5px black;
+   display: flex;
+   align-items: center;
+   
+   
+  }
+
+  .filter p{
+    margin: 0%;
+    color:#7D6211 ;
+    margin-left: 10px;
+  }
+  

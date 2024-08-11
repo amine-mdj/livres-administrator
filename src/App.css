@@ -15,5 +15,16 @@
 
 .two{
   display: flex;
-  height: 100%;
+  height: calc(88vh - 15px);
 }
+
+.footer-admin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .footer-admin p{
+    color: white;
+    margin-inline: 10px;
+    }

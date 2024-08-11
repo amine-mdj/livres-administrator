@@ -3,7 +3,7 @@
     padding-left: 20px;
     padding-top: 100px;
     width: 12vw;
-    height: 100vh;
+    height: calc(90vh - 15px);
     overflow: hidden;
    
     }

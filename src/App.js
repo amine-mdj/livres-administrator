@@ -20,13 +20,14 @@ function App() {
       <Sidebar/>
       <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
-            <Route  path="/" element={<Users />} />
+            <Route  path="/setting" element={<Users />} />
             <Route  path="/category" element={<Category />} />
             <Route  path="/orders" element={<Orders />} />
             <Route  path="/books" element={<Books />} />
             </Routes>
             </AnimatePresence>
     </div>
+    <div className='footer-admin'><p>made with </p><i class="fa-solid fa-heart" style={{color: '#ffe6b3'}}></i><p> and passion by senior programmer</p></div>
   </div></div>
     
   );

@@ -29,6 +29,36 @@
     
   }
 
+  .dash-wrap{
+    display: flex;
+  }
+
+  .main-books{
+    position: relative;
+    left:70px;
+    flex: 4;
+  }
+
+  .add-new{
+    box-sizing: border-box;
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .add-new button{
+    position: relative;
+    left: 130px;
+    width: 7vw;
+    height: 38vh;
+    border: 4px dashed #7D6211;
+    background-color: #fff6e48f;
+    color: #7D6211;
+    font-size: 20px;
+  }
+
+  
+
   table{
     color: white;
     width: 100%;
@@ -64,3 +94,37 @@
   .north{
     margin-top: 2px;
   }
+
+  .td-image{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-desc{
+    width: 40px;
+  }
+
+  .div-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #E6FBFB;
+    border: 1px solid #008D8D;
+  }
+
+  .div-delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #F8E8F2;
+    border: 1px solid #911463;
+  }
+

@@ -1,70 +1,73 @@
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: -100px;
-    transform-origin: center;
-    
-    
+.setting{
+    margin-left:100px ;
+    margin-top: 100px;
+     
 }
 
-.main .headertab{
-    display: flex;
-    justify-content: space-between;
-  background-color: #444D50;
-  width: 55vw;
-  height: 3vh;
- 
+.setting p{
+  color: #797B7F;
 }
 
-.main .headertab p{
-    margin-top: 2px;
-    color: white;
-    margin-left: 20px;
-  }
+.setting h1{
+  color: white;
+  text-shadow: 3px 3px 15px black;
+}
 
-.main .bodytab{
-    background-color: rgba(25, 40, 45, 0.4);
-    width: 55vw;
-    height: 55vh;
-    
-    
-  }
+.setting{
+  color: white;
+  text-shadow: 3px 3px 15px black;
+}
 
-  table{
-    color: white;
-    width: 100%;
-  }
+.all-cont{
+  display: flex;
+}
 
-  tr{
-    height: 30px;
-    
-  }
+.img-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: -50px;
+}
 
-  td p{
-    width:fit-content;
-    margin-inline: auto;
-  }
+.img-btn img{
+ border-radius: 100%;
+ width: 200px;
+ height: 200px;
+}
 
-  th{
-    margin-bottom: 10px;
-    border-bottom: 1px solid white;
-  }
+.img-btn button{
+  margin-top: 20px;
+  padding: 7px 10px;
+  width: 100px;
+  border: none;
+  color: rgb(63, 63, 63);
+  box-shadow: 3px 3px 5px black;
+}
 
-  .tabhr div{
-  margin-inline: 10px;
-  }
+.cont-shared input{
+  margin-block: 10px;
+  margin-left: 50px;
+  padding: 10px 15px;
+   border-radius: 5px;
+   border: 1px solid rgb(21, 21, 21);
 
-  .tabhr{
-    display: flex;
-  }
+}
 
-  .south{
-    margin-top: 3px;
-  }
+.input1{
+  margin-left: 78px !important;
+}
 
-  .north{
-    margin-top: 2px;
-  }
+.cont-shared label{
+  color: #797B7F;
+}
+
+.em-word{
+  margin-top: 20px;
+}
+
+.hr1{
+  width: 300px;
+  margin-left: 0;
+}
+
